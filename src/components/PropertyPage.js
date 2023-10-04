@@ -4,10 +4,13 @@ import articles from './articles';
 import { useParams } from 'react-router-dom';
 
 const PropertyPage = () => {
-    const { slug } = useParams();
+    const { brand } = useParams();
 
-    const singleitem = articles.find((item) => item.id === slug)
-        
+    const singleitem = articles.find((item) => item.brand === brand)
+       
+            console.log(brand)
+            console.log(singleitem)
+    
     return (
         <>
             <div className="my-2">

@@ -28,7 +28,7 @@ const Card = (props) => {
           {displayedArticles.map((article, index) => (
             <div className="col-md-4" key={article.index} >
               
-              <CardItem title={article.title} id={article.id} category={article.category} description={article.description} auth={article.auth} imageUrl={article.urlToImage} />
+              <CardItem title={article.title} id={article.id} brand={article.brand} category={article.category} description={article.description} auth={article.auth} imageUrl={article.urlToImage} />
               
              
               </div>

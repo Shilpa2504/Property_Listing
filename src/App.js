@@ -16,8 +16,8 @@ function App() {
         </div>
         <Navbar category="paris"/>
         <Routes>
-          <Route path="/" element={<Card category="paris"/>} />
-          <Route path="/property/:id" element={<PropertyPage />} />
+          <Route path="/" element={<Card/>} />
+          <Route path="/property/:brand" element={<PropertyPage />} />
 
         </Routes>
       </div>

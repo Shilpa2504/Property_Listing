@@ -10,11 +10,11 @@ import { Link, useNavigate } from 'react-router-dom';
 import articles from './articles';
 
 export default function CardItem(props) {
-  const { title, description, imageUrl, id, auth,category } = props;
+  const { title, description, imageUrl, id, auth,category,brand } = props;
  
 
 
-  // Navigate to the property details page and pass property details as state
+  
 
   const [liked, setLiked] = useState(false);
 
@@ -67,7 +67,7 @@ export default function CardItem(props) {
 
                 className="py-1 px-3 text-sm bg-violet-100 font-semibold rounded-full absolute right-2"
               >
-                <Link to={`/property/${id}`}>
+                <Link to={`/property/${brand}`}>
                   Read More</Link>
               </button>
 
