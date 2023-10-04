@@ -4,8 +4,6 @@ import articles from './articles';
 import { useParams } from 'react-router-dom';
 
 
-
-
 const Card = (props) => {
 
 

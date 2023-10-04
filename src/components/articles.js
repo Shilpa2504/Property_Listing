@@ -10,7 +10,7 @@ const articles = [
   {
     id: 1,
     brand: "Mercie",
-    category: "paris",
+    category: "London",
     auth: "For Sale ",
     title: "Tranquil Cove Cottage: A peaceful waterfront hideaway.",
     description: "6785 London",
@@ -37,7 +37,7 @@ const articles = [
     title: "Pineview Paradise: Rustic mountain villa",
     description: "3452 Tranquil",
 
-    urlToImage: img03,
+    urlToImage: img05,
   },
   {
     id: 4,
@@ -174,7 +174,7 @@ const articles = [
     title: "Golden Valley Gem: Simple and charming.",
     description: "6765 Wides",
 
-    urlToImage: img01,
+    urlToImage: img03,
   },
   {
     id: 17,
@@ -184,7 +184,7 @@ const articles = [
     title: "Mountain Haven Lodge: Nature lover's paradise.",
     description: "26764 Wides",
 
-    urlToImage: img02,
+    urlToImage: img06,
   },
   {
     id: 18,
@@ -194,7 +194,7 @@ const articles = [
     title: "Willowbrook Retreat: Secluded among willow trees.",
     description: "2345 sides",
 
-    urlToImage: img03,
+    urlToImage: img04,
 
   },
   {
@@ -205,7 +205,7 @@ const articles = [
     title: "Maplewood Mansion: Timeless elegance and comfort",
     description: "5435 Wides",
 
-    urlToImage: img04,
+    urlToImage: img01,
   },
   {
     id: 20,
@@ -215,7 +215,7 @@ const articles = [
     title: "Serenity Ridge Retreat: Breathtaking ridge-top views",
     description: "3245 Penalty ",
 
-    urlToImage: img05,
+    urlToImage: img02,
   },
   {
     id: 21,
