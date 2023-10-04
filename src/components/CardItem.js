@@ -46,7 +46,7 @@ export default function CardItem(props) {
           <img src={imageUrl} className="card-img-top " alt="..." />
           </div>
           <div className="card-body">
-            <button>{category}</button>
+           
             <div className='flex flex-row px-2 gap-1 mb-2 text-sm'> <GoLocation />{description}</div>
             <h5 className="card-title font-semibold text-1xl">{title}</h5>
 
